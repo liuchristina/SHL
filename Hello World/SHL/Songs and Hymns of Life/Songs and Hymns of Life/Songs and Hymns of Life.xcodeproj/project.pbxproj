@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF9D5C5E1C895EC000097015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9D5C5D1C895EC000097015 /* AppDelegate.swift */; };
+		CF9D5C601C895EC000097015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9D5C5F1C895EC000097015 /* ViewController.swift */; };
+		CF9D5C631C895EC000097015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9D5C611C895EC000097015 /* Main.storyboard */; };
+		CF9D5C651C895EC000097015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9D5C641C895EC000097015 /* Assets.xcassets */; };
+		CF9D5C681C895EC000097015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9D5C661C895EC000097015 /* LaunchScreen.storyboard */; };
+		CF9D5C771C8965EE00097015 /* OurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9D5C761C8965EE00097015 /* OurViewController.swift */; };
+		CF9D5C791C896B5400097015 /* OurTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9D5C781C896B5400097015 /* OurTableViewController.swift */; };
+		CF9D5C7B1C896D4300097015 /* OurViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9D5C7A1C896D4300097015 /* OurViewController2.swift */; };
+		CF9D5C811C8972C500097015 /* wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF9D5C801C8972C500097015 /* wood.jpg */; };
+		CF9D5C851C89742900097015 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9D5C841C89742900097015 /* SWRevealViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF9D5C5A1C895EC000097015 /* Songs and Hymns of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Songs and Hymns of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9D5C5D1C895EC000097015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF9D5C5F1C895EC000097015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF9D5C621C895EC000097015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF9D5C641C895EC000097015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF9D5C671C895EC000097015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF9D5C691C895EC000097015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9D5C701C895F7100097015 /* Songs and Hymns of Life-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Songs and Hymns of Life-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF9D5C761C8965EE00097015 /* OurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OurViewController.swift; path = ../OurViewController.swift; sourceTree = "<group>"; };
+		CF9D5C781C896B5400097015 /* OurTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurTableViewController.swift; sourceTree = "<group>"; };
+		CF9D5C7A1C896D4300097015 /* OurViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurViewController2.swift; sourceTree = "<group>"; };
+		CF9D5C801C8972C500097015 /* wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpg; sourceTree = "<group>"; };
+		CF9D5C831C89742900097015 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CF9D5C841C89742900097015 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF9D5C571C895EC000097015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF9D5C511C895EC000097015 = {
+			isa = PBXGroup;
+			children = (
+				CF9D5C7A1C896D4300097015 /* OurViewController2.swift */,
+				CF9D5C5C1C895EC000097015 /* Songs and Hymns of Life */,
+				CF9D5C5B1C895EC000097015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9D5C5B1C895EC000097015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF9D5C5A1C895EC000097015 /* Songs and Hymns of Life.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF9D5C5C1C895EC000097015 /* Songs and Hymns of Life */ = {
+			isa = PBXGroup;
+			children = (
+				CF9D5C821C8972DE00097015 /* Images */,
+				CF9D5C6F1C895EFC00097015 /* SWReviewController */,
+				CF9D5C5D1C895EC000097015 /* AppDelegate.swift */,
+				CF9D5C761C8965EE00097015 /* OurViewController.swift */,
+				CF9D5C5F1C895EC000097015 /* ViewController.swift */,
+				CF9D5C611C895EC000097015 /* Main.storyboard */,
+				CF9D5C781C896B5400097015 /* OurTableViewController.swift */,
+				CF9D5C641C895EC000097015 /* Assets.xcassets */,
+				CF9D5C661C895EC000097015 /* LaunchScreen.storyboard */,
+				CF9D5C691C895EC000097015 /* Info.plist */,
+			);
+			path = "Songs and Hymns of Life";
+			sourceTree = "<group>";
+		};
+		CF9D5C6F1C895EFC00097015 /* SWReviewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF9D5C831C89742900097015 /* SWRevealViewController.h */,
+				CF9D5C841C89742900097015 /* SWRevealViewController.m */,
+				CF9D5C701C895F7100097015 /* Songs and Hymns of Life-Bridging-Header.h */,
+			);
+			name = SWReviewController;
+			sourceTree = "<group>";
+		};
+		CF9D5C821C8972DE00097015 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF9D5C801C8972C500097015 /* wood.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF9D5C591C895EC000097015 /* Songs and Hymns of Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9D5C6C1C895EC000097015 /* Build configuration list for PBXNativeTarget "Songs and Hymns of Life" */;
+			buildPhases = (
+				CF9D5C561C895EC000097015 /* Sources */,
+				CF9D5C571C895EC000097015 /* Frameworks */,
+				CF9D5C581C895EC000097015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Songs and Hymns of Life";
+			productName = "Songs and Hymns of Life";
+			productReference = CF9D5C5A1C895EC000097015 /* Songs and Hymns of Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF9D5C521C895EC000097015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Christina Liu";
+				TargetAttributes = {
+					CF9D5C591C895EC000097015 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 98AVWGDJ7S;
+					};
+				};
+			};
+			buildConfigurationList = CF9D5C551C895EC000097015 /* Build configuration list for PBXProject "Songs and Hymns of Life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF9D5C511C895EC000097015;
+			productRefGroup = CF9D5C5B1C895EC000097015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF9D5C591C895EC000097015 /* Songs and Hymns of Life */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF9D5C581C895EC000097015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9D5C681C895EC000097015 /* LaunchScreen.storyboard in Resources */,
+				CF9D5C811C8972C500097015 /* wood.jpg in Resources */,
+				CF9D5C651C895EC000097015 /* Assets.xcassets in Resources */,
+				CF9D5C631C895EC000097015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF9D5C561C895EC000097015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9D5C851C89742900097015 /* SWRevealViewController.m in Sources */,
+				CF9D5C601C895EC000097015 /* ViewController.swift in Sources */,
+				CF9D5C5E1C895EC000097015 /* AppDelegate.swift in Sources */,
+				CF9D5C771C8965EE00097015 /* OurViewController.swift in Sources */,
+				CF9D5C7B1C896D4300097015 /* OurViewController2.swift in Sources */,
+				CF9D5C791C896B5400097015 /* OurTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF9D5C611C895EC000097015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9D5C621C895EC000097015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF9D5C661C895EC000097015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9D5C671C895EC000097015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF9D5C6A1C895EC000097015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF9D5C6B1C895EC000097015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF9D5C6D1C895EC000097015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Songs and Hymns of Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Songs-and-Hymns-of-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Songs and Hymns of Life/Songs and Hymns of Life-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF9D5C6E1C895EC000097015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Songs and Hymns of Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Songs-and-Hymns-of-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Songs and Hymns of Life/Songs and Hymns of Life-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF9D5C551C895EC000097015 /* Build configuration list for PBXProject "Songs and Hymns of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9D5C6A1C895EC000097015 /* Debug */,
+				CF9D5C6B1C895EC000097015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9D5C6C1C895EC000097015 /* Build configuration list for PBXNativeTarget "Songs and Hymns of Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9D5C6D1C895EC000097015 /* Debug */,
+				CF9D5C6E1C895EC000097015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF9D5C521C895EC000097015 /* Project object */;
+}
